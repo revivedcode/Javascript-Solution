@@ -1,0 +1,18 @@
+Write a function that accepts an integer and converts the result to Roman numerals.
+
+// Test the function
+3;  
+Output: "III"
+
+9;  
+Output: "IX"
+
+
+1 step : 1000 : "M"
+         2 : "II"
+         1 : "I"
+
+2 step : Empty results string
+3 step: LOOP through the Roman numerals 
+4 step: while loop 
+final step return the final result        

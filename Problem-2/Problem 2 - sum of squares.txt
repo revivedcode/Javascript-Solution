@@ -1,0 +1,22 @@
+Problem 2 - sum of squares
+It squares each number in the array: [1, 2, 3, 4] 
+Then it sums the squared values: Output 30
+
+[1, 2, 3, 4]
+1*1=1
+2*2=4
+3*3=9
+4*4=16
+
+1+4+9+16=30
+
+0 + 1 = 1
+1 + 4 = 5
+5 + 9 = 14
+14 + 16 = 30
+
+
+
+
+
+

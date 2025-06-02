@@ -1,0 +1,23 @@
+Remove Duplicate Object
+
+[
+    { name: 'a' }, 
+    { name: 'c' }, 
+    { name: 'b' }, 
+    { name: 'a' }, 
+    { name: 'b' }, 
+    { name: 'c' }
+];
+
+Output:
+[
+    { name: 'a' }, 
+    { name: 'c' }, 
+    { name: 'b' }
+]
+
+Solution :
+----------
+1. new Set()
+2. Filter
+3. IF / Else condition

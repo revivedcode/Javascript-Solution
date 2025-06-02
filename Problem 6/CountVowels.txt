@@ -1,0 +1,4 @@
+Count Vowels
+Write a function that returns the number of vowels
+Example: "Hello World" 
+Output: 3 "e", "o", "0"

@@ -1,0 +1,9 @@
+how to remove duplicates from an array. 
+["apple", "mango", "apple", "orange", "mango", "mango"]
+
+output : ["apple", "mango", "orange"]
+
+
+1. Using Set
+2. Using a simple loop with includes() which works with small arrays
+3. More optimized way using Map. It's better for perfomance on larger arrays.
