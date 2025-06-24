@@ -58,10 +58,10 @@ const data = [
 
 function printIndented(data, level = 0) {
     for (const item of data) {
-        console.log(' '.repeat(level) + item.name);
         if (item.children && item.children.length > 0) {
             printIndented(item.children, level + 1)
         }
+        console.log(' '.repeat(level) + item.name);
     }
 }
 
