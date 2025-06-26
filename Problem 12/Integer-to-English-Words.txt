@@ -15,4 +15,12 @@ Output: "One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven"
  
 
 Constraints:
-0 <= num <= 231 - 1
+0 <= num <= 231 - 1 
+
+How can we solve :
+
+1. We need array Number 0 -19
+2. Tens like Twenty, Thirty etc
+3. and Units like Thousand, Million, Billion etc
+4. we need to create a helper function to Convert numbers a below 1000 into words
+5. process the number in chunks of 3 digits from R > L and append the appropriate Units
